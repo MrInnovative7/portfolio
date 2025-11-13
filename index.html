@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abhinav Kumar — Designer Portfolio</title>
+  <meta name="description" content="Dark-themed mobile-first designer portfolio with smooth animations." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Abhinav Kumar</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero fade-up" id="about">
+    <h1>Creative Designer & Visual Storyteller</h1>
+    <p>I design engaging, modern digital experiences that connect creativity with clean design and meaningful storytelling.</p>
+    <button onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'});">View My Work</button>
+  </section>
+
+  <section class="section fade-up" id="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Brand Identity Redesign</h3>
+        <p>Developed a new visual identity for a startup brand with logo, typography, and color palette.</p>
+      </div>
+      <div class="project-card">
+        <h3>UI/UX for Portfolio Website</h3>
+        <p>Designed a sleek, user-friendly portfolio site for a digital artist with motion effects.</p>
+      </div>
+      <div class="project-card">
+        <h3>Mobile App Interface</h3>
+        <p>Created an intuitive app interface focusing on accessibility and modern design trends.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact fade-up" id="contact">
+    <h2>Get In Touch</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Raushan Kumar | Designed with passion ✦
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
